@@ -1,0 +1,9 @@
+- name: Running a test
+  hosts: all
+  tasks:
+    - name: making a Ansible test file
+      lineinfile:
+        line: Yeah
+        path: /home/ansible/test.txt
+        state: present
+        create: yes
