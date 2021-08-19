@@ -3,3 +3,4 @@
 	tasks:
 		- name: Pinging server 
 			ping:
+#
