@@ -1,0 +1,7 @@
+- name: Playbook to make users
+  hosts: all
+  become: true
+  tasks:
+    - name: making user
+      user:
+        name: '{{ username }}'
