@@ -1,0 +1,7 @@
+
+#pings server does not test actual ping
+- name: Pinging server
+  hosts: all
+	tasks:
+		- name: Pinging server 
+			ping:
